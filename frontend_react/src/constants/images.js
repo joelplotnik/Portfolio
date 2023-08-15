@@ -19,6 +19,7 @@ import postgres from '../assets/postgres.png';
 import java from '../assets/java.png';
 import aws from '../assets/aws.png';
 import mongo from '../assets/mongodb.png';
+import mysql from '../assets/mysql.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -34,6 +35,7 @@ import csusm from '../assets/csusm.png';
 const images = {
   sails,
   mongo,
+  mysql,
   aws,
   java,
   postgres,

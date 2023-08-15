@@ -57,7 +57,7 @@ export const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.react, images.node, images.sails].map((circle, index) => (
+        {[images.react, images.rails, images.mysql].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="circle" />
           </div>
