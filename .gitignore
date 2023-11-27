@@ -1,2 +1,53 @@
-# dependencies
-/node_modules
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build directories
+/build/
+/dist/
+/.next/
+/out/
+/.nuxt/
+/.expo/
+/.parcel-cache/
+/.cache/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+logs/
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compiled files
+*.compiled.js
+*.map
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Other generated files
+*.zip
+*.rar
+*.tar.gz
+*.tgz
+*.bak
+*.swp
+Thumbs.db

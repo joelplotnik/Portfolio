@@ -38,6 +38,11 @@
     background-color: var(--secondary-color);
     color: #fff;
   }
+
+  @media screen and (max-width: 500px) {
+    padding: 1rem 2rem;
+    border-radius: 0.85rem;
+  }
 }
 
 .app__work-portfolio {
@@ -68,7 +73,7 @@
       border-radius: 0.75rem;
     }
 
-    @media screen and (max-width: 300) {
+    @media screen and (max-width: 300px) {
       width: 100%;
       margin: 1rem;
     }
@@ -124,6 +129,17 @@
       height: 50%;
       color: var(--white-color);
     }
+  }
+
+  @media screen and (min-width: 500px) {
+    opacity: 0;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    background-color: rgba(0, 0, 0, 0.15);
+    opacity: 1;
   }
 }
 
